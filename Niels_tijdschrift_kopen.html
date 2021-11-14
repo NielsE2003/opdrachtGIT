@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+</head>
+<body>
+<script type="text/javascript">
+	let naamTijdschift = prompt("Welk tijdschift lees je het liefst?", "Goed gevoel");
+	let prijs = prompt("Hoeveel kost het?", "9.99");
+	let aantalExemplaren = prompt("Hoeveel exemplaren wil je kopen", "2");
+	let totalePrijs = prijs*aantalExemplaren;
+	document.write(`<p>Het tijdschift is ${naamTijdschift}.</p>
+					<p>De kostprijs van 1 exemplaar is ${prijs}.</p>
+					<p>Het aantal exemplaren dat je wil kopen is ${aantalExemplaren}.</p>
+					<p>De totale prijs is dan ${totalePrijs}.</p>`);
+	console.log(typeof naamTijdschift);
+	console.log(typeof prijs);
+	console.log(typeof aantalExemplaren);
+</script>
+</body>
+</html>
